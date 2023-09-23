@@ -7,7 +7,7 @@ public class Question10 {
 
         for (int i=0;i< countries.length;i++){
             for (int j=0;j< countries.length;j++){
-            if (countries[i].equals(countries[j])&&i!=j){
+            if (!countries[i].equals(countries[j])&&i!=j){
 
                 System.out.println(countries[j]);  } }
         }
